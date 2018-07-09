@@ -429,7 +429,6 @@ figure span {
 
 .xhibite {
   display: flex;
-  flex-direction: column;
   width: 100%;
   height: auto;
   border: 1px solid black;
@@ -441,8 +440,8 @@ figure span {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-end;
-  margin: 0 1.50rem 1.50rem 1.50rem;
+  align-items: flex-start;
+  margin: 2rem 1.50rem 1.50rem 1.50rem;
 }
 
 
@@ -453,8 +452,22 @@ figure span {
 .headmsg {
   border: 1px solid black;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 100%;
   font-size: 2rem;
   height: 6rem;
+}
+
+.infohibite {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  width: 40%;
+  height: auto;
+  border: 1px solid black;
+
 }
