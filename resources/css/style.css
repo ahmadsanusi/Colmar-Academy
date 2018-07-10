@@ -19,8 +19,6 @@ header{
   padding: 0 1.5rem;
   background-color: rgb(255, 255, 251);
   border: 2px solid rgb(255, 255, 251);
-  position: fixed;
-  z-index: 1;
 
 
 }
@@ -182,7 +180,7 @@ a {
 
 #story-section a {
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   color: rgb(200, 200, 200);
